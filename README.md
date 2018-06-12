@@ -22,8 +22,21 @@ Unfortunately, not all mail clients offer URL schemes to be supported by `ThirdP
 
 ## How to install
 
-Manually import the files from the Source folder.
-Pod support maybe added later.
+Manually import the files from the Source folder. Pod support maybe added later.
+
+Open your App's info.plist file and add the key "LSApplicationQueriesSchemes", or update it, with the all the schemes found in [ThirdPartyMailer.plist](https://github.com/Seoras/ThirdPartyMailer/blob/master/Source/ThirdPartyMailer.plist). e.g.
+
+```
+<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>googlegmail</string>
+		<string>readdle-spark</string>
+		<string>x-dispatch</string>
+		<string>airmail</string>
+		<string>ms-outlook</string>
+		<string>ymail</string>
+	</array>
+```
 
 ## How to use
 
