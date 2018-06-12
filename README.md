@@ -2,6 +2,8 @@
 
 _Interact with third-party iOS mail clients, using custom URL schemes._
 
+For the Swift version [follow this link](https://github.com/vtourraine/ThirdPartyMailer/).
+
 ![Platform iOS](https://img.shields.io/badge/platform-iOS-blue.svg)
 [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/vtourraine/ThirdPartyMailer/raw/master/LICENSE.md)
 
