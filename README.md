@@ -17,7 +17,7 @@ Airmail            | `airmail`       | [link](https://itunes.apple.com/app/id993
 Microsoft Outlook  | `ms-outlook`    | [link](https://itunes.apple.com/app/id951937596?mt=8)
 Yahoo Mail         | `ymail`         | [link](https://itunes.apple.com/app/id577586159?mt=8)
 
-Unfortunately, not all mail clients offer URL schemes to be supported by `ThirdPartyMailer`. If you’re aware of another candidate, please [let us know](https://github.com/vtourraine/ThirdPartyMailer/issues https://github.com/seoras/ThirdPartyMailer/issues).
+Unfortunately, not all mail clients offer URL schemes to be supported by `ThirdPartyMailer`. If you’re aware of another candidate, please let us know [Swift](https://github.com/vtourraine/ThirdPartyMailer/issues) [ObjC](https://github.com/seoras/ThirdPartyMailer/issues).
 
 
 ## How to install
@@ -54,6 +54,7 @@ ThirdPartyMailer (ObjC) is written in Objective C, requires iOS 8.0 and above, X
 ## Credits
 
 ThirdPartyMailer (Swift) was created by [Vincent Tourraine](http://www.vtourraine.net).
+
 ThirdPartyMailer port to Objective C was created by [George Taylor](https://georgetaylor.com).
 
 
