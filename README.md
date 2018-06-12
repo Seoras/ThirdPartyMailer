@@ -55,7 +55,7 @@ ThirdPartyMailer (ObjC) is written in Objective C, requires iOS 8.0 and above, X
 
 ThirdPartyMailer (Swift) was created by [Vincent Tourraine](http://www.vtourraine.net).
 
-ThirdPartyMailer port to Objective C was created by [George Taylor](https://georgetaylor.com).
+ThirdPartyMailer port to Objective C was created by [George Taylor](https://www.linkedin.com/in/georgemacraetaylor/).
 
 
 ## License
