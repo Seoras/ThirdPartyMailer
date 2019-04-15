@@ -29,10 +29,10 @@
 @implementation ThirdPartyMailer
 
 + (NSArray *) clients {
-  
-	 NSBundle *bundle = [NSBundle bundleForClass:self.classForCoder];
-	 NSURL *bundleURL = [[bundle resourceURL] URLByAppendingPathComponent:@"ThirdPartyMailer.bundle"];
-	 NSBundle *resourceBundle = [NSBundle bundleWithURL:bundleURL];
+    NSBundle *bundle = [NSBundle bundleForClass:self.classForCoder];
+    NSURL *bundleURL = [[bundle resourceURL] URLByAppendingPathComponent:@"ThirdPartyMailerObjC.bundle"];
+    NSBundle *resourceBundle = ([NSBundle bundleWithURL:bundleURL] == Nil) ? [NSBundle mainBundle] : [NSBundle bundleWithURL:bundleURL];
+    NSString *filePath = [resourceBundle pathForResource:@"ThirdPartyMailer" ofType:@"plist"];
     NSString *filePath = [resourceBundle pathForResource:@"ThirdPartyMailer" ofType:@"plist"];
     NSArray *clientsMaster = [NSArray arrayWithContentsOfFile:filePath];
     NSMutableArray *list = [[NSMutableArray alloc] initWithCapacity:[clientsMaster count]];
