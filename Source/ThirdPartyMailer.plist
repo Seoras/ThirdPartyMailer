@@ -86,5 +86,19 @@
 		<key>URLSubjectKey</key>
 		<string>subject</string>
 	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Fastmail</string>
+		<key>URLBodyKey</key>
+		<string>body</string>
+		<key>URLRecipientKey</key>
+		<string>to</string>
+		<key>URLRoot</key>
+		<string>//mail/compose</string>
+		<key>URLScheme</key>
+		<string>fastmail</string>
+		<key>URLSubjectKey</key>
+		<string>subject</string>
+	</dict>
 </array>
 </plist>
