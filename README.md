@@ -12,12 +12,13 @@ For the Swift version [follow this link](https://github.com/vtourraine/ThirdPart
 
 Client             | URL Scheme      | App Store
 ------------------ | --------------- | ---------
-Gmail              | `googlegmail`   | [link](https://itunes.apple.com/app/id422689480?mt=8)
-Dispatch           | `x-dispatch`    | [link](https://itunes.apple.com/app/id642022747?mt=8)
-Spark              | `readdle-spark` | [link](https://itunes.apple.com/app/id997102246?mt=8)
-Airmail            | `airmail`       | [link](https://itunes.apple.com/app/id993160329?mt=8)
-Microsoft Outlook  | `ms-outlook`    | [link](https://itunes.apple.com/app/id951937596?mt=8)
-Yahoo Mail         | `ymail`         | [link](https://itunes.apple.com/app/id577586159?mt=8)
+Gmail              | `googlegmail`   | [link](https://apps.apple.com/app/id422689480?mt=8)
+Dispatch           | `x-dispatch`    | [link](https://apps.apple.com/app/id642022747?mt=8)
+Spark              | `readdle-spark` | [link](https://apps.apple.com/app/id997102246?mt=8)
+Airmail            | `airmail`       | [link](https://apps.apple.com/app/id993160329?mt=8)
+Microsoft Outlook  | `ms-outlook`    | [link](https://apps.apple.com/app/id951937596?mt=8)
+Yahoo Mail         | `ymail`         | [link](https://apps.apple.com/app/id577586159?mt=8)
+Fastmail           | `fastmail`      | [link](https://apps.apple.com/app/id931370077?mt=8)
 
 Unfortunately, not all mail clients offer URL schemes to be supported by `ThirdPartyMailer`. If you’re aware of another candidate, please let us know [Swift](https://github.com/vtourraine/ThirdPartyMailer/issues) [ObjC](https://github.com/seoras/ThirdPartyMailer/issues).
 
