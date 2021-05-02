@@ -38,6 +38,7 @@ Open your App's info.plist file and add the key "LSApplicationQueriesSchemes", o
 		<string>airmail</string>
 		<string>ms-outlook</string>
 		<string>ymail</string>
+		<string>fastmail</string>
 	</array>
 ```
 
