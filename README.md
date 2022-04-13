@@ -26,7 +26,11 @@ Unfortunately, not all mail clients offer URL schemes to be supported by `ThirdP
 
 ## How to install
 
-Manually import the files from the Source folder. Pod support maybe added later.
+Manually import the files from the Source folder. 
+For Pod install use: 
+```
+pod 'ThirdPartyMailerObjC', :git => 'https://github.com/Seoras/ThirdPartyMailer.git'
+```
 
 Open your App's info.plist file and add the key "LSApplicationQueriesSchemes", or update it, with the all the schemes found in [ThirdPartyMailer.plist](https://github.com/Seoras/ThirdPartyMailer/blob/master/Source/ThirdPartyMailer.plist). e.g.
 
