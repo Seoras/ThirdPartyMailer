@@ -100,5 +100,19 @@
 		<key>URLSubjectKey</key>
 		<string>subject</string>
 	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Protonmail</string>
+		<key>URLBodyKey</key>
+		<string>body</string>
+		<key>URLRecipientKey</key>
+		<string></string>
+		<key>URLRoot</key>
+		<string></string>
+		<key>URLScheme</key>
+		<string>protonmail</string>
+		<key>URLSubjectKey</key>
+		<string>subject</string>
+	</dict>
 </array>
 </plist>
