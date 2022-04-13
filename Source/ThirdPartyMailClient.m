@@ -42,23 +42,23 @@
                subject : (NSString *) subject
                   body : (NSString *) body {
     NSURLComponents *components;
-    if (_URLRecipientKey == Nil) {
-        components = [[NSURLComponents alloc] initWithString:[NSString stringWithFormat:@"%@:%@%@",_URLScheme,_URLRoot == Nil ? @"" : [NSString stringWithFormat:@"%@%@",_URLRoot, recipient ? @"/":@""], recipient]];
+    if ([_URLRecipientKey length] == 0) {
+        components = [[NSURLComponents alloc] initWithString:[NSString stringWithFormat:@"%@://mailto:%@%@",_URLScheme,[_URLRoot length] == 0 ? @"" : [NSString stringWithFormat:@"%@%@",_URLRoot, recipient ? @"/":@""], recipient]];
     } else {
         components = [[NSURLComponents alloc] initWithString:[NSString stringWithFormat:@"%@:%@",_URLScheme,_URLRoot == Nil ? @"" : _URLRoot]];
     }
     [components setScheme:_URLScheme];
     
     NSMutableArray *queryItems = [NSMutableArray new];
-    if (_URLRecipientKey && recipient) {
+    if (([_URLRecipientKey length] != 0) && recipient) {
         [queryItems addObject:[NSURLQueryItem queryItemWithName:_URLRecipientKey
                                                           value:recipient]];
     }
-    if (_URLSubjectKey && subject) {
+    if (([_URLSubjectKey length] != 0) && subject) {
         [queryItems addObject:[NSURLQueryItem queryItemWithName:_URLSubjectKey
                                                           value:subject]];
     }
-    if (_URLBodyKey && body) {
+    if (([_URLBodyKey length] != 0) && body) {
         [queryItems addObject:[NSURLQueryItem queryItemWithName:_URLBodyKey
                                                           value:body]];
     }
