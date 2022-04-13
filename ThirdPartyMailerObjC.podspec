@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "ThirdPartyMailerObjC"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Interact with third-party iOS mail clients, using custom URL schemes. (Object C Version)"
   s.description  = <<-DESC
 Enables your app to discover what email apps are installed on an iOS device and provides a uniform interface for requesting an email to be sent to which ever one is selected from the list it provides. Unfortunately, not all email clients offer a URL scheme for 3rd party support. 
